@@ -1,0 +1,59 @@
+.dropzone {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #282c34;
+}
+
+.dropzone-focused {
+  background-color: #222222;
+}
+
+.dropzone-accept {
+  background-color: #43a047;
+}
+
+.dropzone-reject {
+  background-color: #e53935;
+}
+
+.dropzone-content {
+  width: 60vw;
+}
+
+.dropzone-res {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.dropzone-items {
+  flex: 1;
+}
+
+h1 {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+hr {
+  min-width: 0;
+  width: 100%;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+li {
+  font-size: 16px;
+}
